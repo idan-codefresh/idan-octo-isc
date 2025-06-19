@@ -1,4 +1,8 @@
 gitops-runtime:
+  app-proxy:
+    image:
+      repository: quay.io/codefresh/dev/cap-app-proxy
+      tag: 1.3585.0-cr-29159-fix-app-proxy-memory-fe5cc5c
   argo-cd:
     enabled: false
   argo-workflows:
